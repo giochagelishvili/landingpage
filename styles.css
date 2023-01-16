@@ -233,6 +233,17 @@ footer {
     }
 
     .course-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 0;
+        padding-bottom: 3.2rem;
+        gap: 2.4rem;
+    }
+
+    .course-name, .course-description,
+    .course-get-started-button {
         margin: 0;
     }
 
